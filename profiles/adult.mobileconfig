@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+
+    <dict>
+      <key>PayloadType</key><string>com.apple.applicationaccess</string>
+      <key>PayloadIdentifier</key><string>com.locshare.adult</string>
+      <key>PayloadUUID</key><string>11111111-1111-4111-8111-111111111111</string>
+      <key>PayloadVersion</key><integer>1</integer>
+      <key>PayloadDisplayName</key><string>成人向け制限を解除</string>
+
+      <key>allowExplicitContent</key><true/>
+      <key>allowBookstoreErotica</key><true/>
+      <key>ratingApps</key><integer>1000</integer>
+      <key>ratingMovies</key><integer>1000</integer>
+      <key>ratingTVShows</key><integer>1000</integer>
+
+      <key>allowBookstore</key><true/>
+      <key>allowiTunes</key><true/>
+      <key>allowMusicService</key><true/>
+      <key>allowNews</key><true/>
+      <key>allowPodcasts</key><true/>
+      <key>allowRadioService</key><true/>
+
+      <key>allowSafari</key><true/>
+      <key>safariAllowJavaScript</key><true/>
+      <key>safariAllowPopups</key><true/>
+      <key>allowSafariPrivateBrowsing</key><true/>
+      <key>allowSafariHistoryClearing</key><true/>
+
+      <key>allowInAppPurchases</key><true/>
+      <key>allowAppClips</key><true/>
+      <key>allowMultiplayerGaming</key><true/>
+      <key>allowAddingGameCenterFriends</key><true/>
+      <key>allowUIConfigurationProfileInstallation</key><true/>
+      <key>ratingRegion</key><string>jp</string>
+    </dict>
+
+    <dict>
+      <key>PayloadType</key><string>com.apple.webcontent-filter</string>
+      <key>PayloadIdentifier</key><string>com.locshare.adult.web</string>
+      <key>PayloadUUID</key><string>33333333-3333-4333-8333-333333333333</string>
+      <key>PayloadVersion</key><integer>1</integer>
+      <key>PayloadDisplayName</key><string>Webコンテンツ: 制限なし</string>
+      <key>FilterType</key><string>BuiltIn</string>
+      <key>AutoFilterEnabled</key><false/>
+      <key>BlacklistedURLs</key><array/>
+      <key>WhitelistedURLs</key><array/>
+      <key>FilterBrowsers</key><true/>
+      <key>FilterSockets</key><true/>
+      <key>Organization</key><string>LocShare</string>
+    </dict>
+
+  </array>
+  <key>PayloadType</key><string>Configuration</string>
+  <key>PayloadIdentifier</key><string>com.locshare.adult.profile</string>
+  <key>PayloadUUID</key><string>22222222-2222-4222-8222-222222222222</string>
+  <key>PayloadVersion</key><integer>1</integer>
+  <key>PayloadDisplayName</key><string>成人向け制限を解除</string>
+  <key>PayloadOrganization</key><string>LocShare</string>
+  <key>PayloadDescription</key><string>成人向けコンテンツとWebコンテンツの制限を解除します。</string>
+</dict>
+</plist>
