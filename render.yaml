@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: locshare-profile
+    runtime: static
+    staticPublishPath: ./
+    buildCommand: ""
+    headers:
+      - path: /profiles/*
+        name: Content-Type
+        value: application/x-apple-aspen-config
+      - path: /profiles/*
+        name: Content-Disposition
+        value: attachment
