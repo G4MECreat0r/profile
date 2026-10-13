@@ -45,10 +45,12 @@
       <key>PayloadUUID</key><string>33333333-3333-4333-8333-333333333333</string>
       <key>PayloadVersion</key><integer>1</integer>
       <key>PayloadDisplayName</key><string>Webコンテンツ: 制限なし</string>
+
+      <key>ContentFilterUUID</key><string>44444444-4444-4444-8444-444444444444</string>
+
       <key>FilterType</key><string>BuiltIn</string>
       <key>AutoFilterEnabled</key><false/>
-      <key>BlacklistedURLs</key><array/>
-      <key>WhitelistedURLs</key><array/>
+      <key>DenyListURLs</key><array/>
       <key>FilterBrowsers</key><true/>
       <key>FilterSockets</key><true/>
       <key>Organization</key><string>LocShare</string>
